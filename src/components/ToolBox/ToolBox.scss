@@ -1,0 +1,15 @@
+.toolbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i{
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(1.325rem + .9vw);
+        &:not(:last-child){
+            margin-right: calc(1.325rem + .9vw);
+        }
+    }
+}

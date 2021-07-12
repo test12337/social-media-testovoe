@@ -1,0 +1,19 @@
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    &_body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        textarea{
+            margin-right: 1rem;
+        }
+    }
+    span{
+        word-break: break-all;
+    }
+}

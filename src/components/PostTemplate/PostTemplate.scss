@@ -1,0 +1,46 @@
+.post{
+    width: 100%;
+    background-color:#ffffff;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #dbdbdb;
+        textarea{
+            padding: 1rem 0 1rem 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+    &_body{
+        padding: 10px;
+        min-height: 3rem;
+        display: flex;
+        align-items: center;
+        span{
+            word-break: break-all;
+        }
+        textarea{
+            padding: 1rem 0 1rem 0.5rem;
+        }
+    }
+    &_footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        border-top: 1px solid #dbdbdb;
+        textarea{
+            margin-right: 1rem;
+        }
+    }
+    &_title{
+        word-break: break-all;
+    }
+}
+.extandable{
+    margin-top: 2rem;
+}
